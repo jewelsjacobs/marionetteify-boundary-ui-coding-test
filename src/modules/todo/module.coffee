@@ -3,13 +3,10 @@ Marionette = require 'backbone.marionette'
 Router = require './router'
 Controller = require './controller'
 
-
-
 class TodoModule extends Marionette.Module
 
     initialize: ->
         this.todoRegionId = 'todo-module-region'
-
 
     onStart: ->
         # encapsulate each module in a container
@@ -26,8 +23,6 @@ class TodoModule extends Marionette.Module
         this._removeRegion()
         this._destroyContainer()
 
-
-
     _createContainer: ->
         node = document.createElement 'div'
         node.id = this.todoRegionId
@@ -40,9 +35,6 @@ class TodoModule extends Marionette.Module
         this.controller = new Controller todoRegion: this.app.todoRegion
         router = new Router controller: this.controller
 
-
-
-
     _destroyContainer: ->
         node = document.getElementById this.todoRegionId
         node?.parentElement.removeChild node
@@ -52,11 +44,6 @@ class TodoModule extends Marionette.Module
 
     _stopMediator: ->
         this.controller.stop()
-
-
-
-
-
 
 module.exports = TodoModule
 

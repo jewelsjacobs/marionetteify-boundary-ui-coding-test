@@ -19,10 +19,27 @@ button {
 	appearance: none;
 }
 
+#chart button {
+	float: right;
+	margin: 50px 0 0 0;
+	padding: 10px;
+	cursor: pointer;
+	border: 1px solid #a9a9a9;
+	background: rgba(0, 0, 0, 0.1);;
+	font-size: 100%;
+	vertical-align: baseline;
+	font-family: inherit;
+	color: #4d4d4d;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2),
+	0 2px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
 body {
 	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	line-height: 1.4em;
-	background: #eaeaea url('/src/assets/media/bg.png');
+	background: #eaeaea url('../media/bg.png');
 	color: #4d4d4d;
 	width: 550px;
 	margin: 0 auto;

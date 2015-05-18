@@ -3,8 +3,6 @@ var Marionette = require('backbone.marionette');
 var TodoLayout = require('./views/layout/layout');
 var TodosCollection = require('./models/todos');
 
-
-
 module.exports = Marionette.Controller.extend({
 
     onStart: function() {
@@ -16,7 +14,6 @@ module.exports = Marionette.Controller.extend({
         }.bind(this);
         this.todosCollection.fetch({success: onSuccess});
     },
-
 
     filterItems: function(filter) {
         filter = (filter && filter.trim() || 'all');
