@@ -10,6 +10,10 @@ I found [this](https://github.com/JSteunou/marionetteify) and decided to fork it
 
 [App running on heroku](https://floating-peak-3446.herokuapp.com/)
 
+### Compare
+
+You can compare the original code [with this PR](https://github.com/jewelsjacobs/marionetteify-boundary-ui-coding-test/pull/1)
+
 ### Install
 
 Install grunt globally
