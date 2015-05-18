@@ -12,7 +12,7 @@ I found [this](https://github.com/JSteunou/marionetteify) and decided to fork it
 
 ### Compare
 
-You can compare the original code [with this PR](https://github.com/jewelsjacobs/marionetteify-boundary-ui-coding-test/pull/1)
+Here is the [side by side dif of the commit](https://github.com/jewelsjacobs/marionetteify-boundary-ui-coding-test/commit/a438ce8a7d0eff96ac8ff2e6fde8e36d76fbe60a?diff=split)
 
 ### Install
 
